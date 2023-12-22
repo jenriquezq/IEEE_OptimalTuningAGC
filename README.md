@@ -14,7 +14,7 @@
 2. **Archivos Excel**:
    1. `parametros_originales_Molino.xlsx`: Este archivo contiene los registros de Potencia Real (medida) y Potencia Deseada (calculada por AGC) para una unidad de la central Molino. Estos registros fueron obtenidos de OTS (Simulador de Entrenamiento de Operadores).
    2. `parametros_originales_FACE.xlsx`: Este archivo contiene los registros de ACE crudo (calculado por AGC). Estos registros fueron obtenidos de OTS.
-
+   > **NOTA** Estos archivos deben estar ubicados en la misma carpeta en la cual se encuentran los códigos de MATLAB.
 # Instrucciones para correr scripts:
 1. Abrir `main.m`. En la variable `option` digitar una de las siguientes opciones:
    1. `1`: Para escoger los registros de Potencia Real (medida) y Potencia Deseada (calculada por AGC) para unidad con rampa de subida.
